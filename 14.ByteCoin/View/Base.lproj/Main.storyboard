@@ -88,6 +88,11 @@
                             <constraint firstItem="bKW-IP-int" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="zi2-Pa-qYb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bitcoinLabel" destination="FT8-eD-eL6" id="RCY-Oe-5TA"/>
+                        <outlet property="currencyLabel" destination="L8F-56-hcl" id="hxx-Z6-8gd"/>
+                        <outlet property="currencyPicker" destination="TdF-QG-b9P" id="nB4-le-cZB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
